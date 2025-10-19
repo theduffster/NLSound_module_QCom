@@ -843,7 +843,8 @@ persist.vendor.audio.spatializer.speaker_enabled=false
 vendor.audio.ignore_effects=true
 persist.audio.ignore_effects=true
 persist.vendor.audio.ignore_effects=true
-ro.audio.disable_audio_effects=1
+#Disabled since crashes Sony Xperia devices Android 14 and above
+#ro.audio.disable_audio_effects=1
 vendor.audio.disable_audio_effects=1
 low.pass.filter=Off
 middle.pass.filter=Off
